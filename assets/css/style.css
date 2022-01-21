@@ -132,6 +132,7 @@ html{
     background-color: rgb(26, 26, 26);
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 .center-button{
     margin-top: 20px;
@@ -226,7 +227,6 @@ html{
     font-size: 1.50em;
     font-family: Arial Black, serif;
 }
-
 .sreach-container{
     padding:5px;
     border: 1px solid #ddd;
@@ -288,3 +288,95 @@ html{
 .footer{
     display: flex;
 }
+@media (max-width: 981px) 
+{
+    .sreach-container{
+        display: none;
+    }
+
+    .title-menu{
+        margin-left: 8%;
+        width: 80%;
+        font-size: 1.50em;
+        font-family: Arial Black, serif;
+    }
+}
+
+@media (max-width: 751px) 
+{
+    .sreach-container{
+        display: none;
+    }
+
+    .title-menu{
+        margin-left: 2%;
+        width: 100%;
+        font-size: 1.50em;
+        font-family: Arial Black, serif;
+    }
+}
+
+@media (max-width: 629px) 
+{
+    .sreach-container{
+        display: none;
+    }
+
+    .title-menu{
+        margin-left: 2%;
+        width: 100%;
+        font-size: 1.10em;
+        font-family: Arial Black, serif;
+    }
+}
+
+@media (max-width: 505px) 
+{
+    .title-menu{
+        width: 100%;
+        font-size: 1.10em;
+        font-family: Arial Black, serif;
+    }
+
+    .ul-menu{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        margin-left: -10%;
+    }
+    .items-menu{
+        margin-left:10px;
+        margin-right:10px;
+        font-size: 0.80em;
+        color: black;
+        text-decoration: none;
+    }
+    .items-menu:hover{
+        text-decoration: underline;
+        color: #3b99e0;
+    }
+}
+
+@media (max-width: 821px) 
+{
+    .fond-img{
+        margin-top: 70px;
+        z-index: 2;
+        background-image: url(../img/back/flou.png);
+        height:100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .blocs{
+        width:100%;
+        margin-top: 10%;
+        margin-bottom: 30%;
+        background-color: rgba(10, 10, 10, 0.178);
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
