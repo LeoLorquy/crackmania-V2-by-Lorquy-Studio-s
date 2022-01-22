@@ -99,6 +99,7 @@ html{
     /*height: auto;*/
     object-fit: cover;
     cursor: pointer;
+    border-radius: 3px;
 }
 .grid-item:hover{
     opacity: 0.69;
