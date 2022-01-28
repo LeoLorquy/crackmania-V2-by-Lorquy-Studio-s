@@ -1,0 +1,62 @@
+.items-fifa{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100px;
+    width: 260px;
+    background-color: #6c2be4;
+    border-radius: 5px;
+
+    background-image: url(../img/jeuxcover/fifa-22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.items-gta{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100px;
+    width: 260px;
+    background-color: #6c2be4;
+    border-radius: 5px;
+
+    background-image: url(../img/jeuxcover/GTA-V.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.items-minecraft{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100px;
+    width: 260px;
+    background-color: #6c2be4;
+    border-radius: 5px;
+
+    background-image: url(../img/jeuxcover/minecraft.jpg);
+    background-position: flex-start;
+    background-size: cover;
+}
+.mini{
+    font-size: 0.60em;
+    color: rgb(240, 240, 240);
+}
+.items-farcry{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100px;
+    width: 260px;
+    background-color: #6c2be4;
+    border-radius: 5px;
+
+    background-image: url(../img/jeuxcover/farcry.png);
+    background-position: flex-start;
+    /* flexstart exeptionnel */
+    /*background-position: center;*/
+    background-size: cover;
+}

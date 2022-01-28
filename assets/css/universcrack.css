@@ -3,11 +3,14 @@ body{
     padding: 0;
     font-family: Montserrat,sans-serif;
     height: 100%;
+    background-color: rgb(24, 24, 24);
+    color: white;
 }
 html{
     scroll-behavior: smooth;
 }
 .content{
+    margin: 0;
     height: 100%;
 }
 .container-title{
@@ -64,7 +67,7 @@ html{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.979);
+    background-color: rgba(17, 17, 17, 0.979);
     box-shadow: 0px 0px 14px -6px rgba(0,0,0,1);
 -webkit-box-shadow: 0px 0px 14px -6px rgba(0,0,0,1);
 -moz-box-shadow: 0px 0px 14px -6px rgba(0,0,0,1);
@@ -72,6 +75,7 @@ html{
     height: 70px;
     padding: 0;
     margin: 0;
+    z-index: 1;
 }
 .ul-menu{
     display: flex;
@@ -83,7 +87,7 @@ html{
 .items-menu{
     margin-left:10px;
     margin-right:10px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .items-menu:hover{
@@ -127,12 +131,12 @@ html{
 }
 .line{
     height: 380px;
-    width: 5px;
-    background-color: #e416ff;
+    width: 1px;
+    background-color: #510a5a;
 }
 .conatiner-hist{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-left: 5%;
 }
@@ -142,6 +146,7 @@ html{
 }
 .title-jeux{
     margin-left: 5%;
+    margin-top: 10%;
 }
 .conatainer-info{
     margin-top: 5%;
@@ -169,7 +174,7 @@ html{
 }
 .color-span-footer{
     color: #6c2be4;
-    margin-right: 5px;
+    margin-right: 1px;
 }
 .items-footer{
     color: rgb(214, 214, 214);
@@ -185,15 +190,65 @@ html{
 }
 .button-download{
     background-color: rgba(67, 8, 206, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     width: 140px;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+.center-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
     text-decoration: none;
 }
 .button-download:hover{
     background-color: rgba(67, 8, 206, 0.123);
+}
+.lien{
+    color: #170a30;
+    text-decoration: none;
+}
+.lien:hover{
+    cursor: zoom-in;
+    color: #6c2be4;
+}
+.title-histoire{
+    font-family: Arial Black, serif;
+    color: #6c2be4;
+}
+.iframes{
+    width:100%;
+    height:405px;
+    border-radius: 5px;
+}
+.container-max{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+}
+.title-config{
+    margin-top: 10%;
+}
+@media (max-width: 577px) 
+{
+    .iframes{
+        margin-bottom: 50px;
+        width:350px;
+        height:200px;
+    }
+}
+@media (max-width: 371px) 
+{
+    .iframes{
+        margin-bottom: 50px;
+        width:300px;
+        height:150px;
+    }
 }
 
 @media (max-width: 981px) 
@@ -232,7 +287,7 @@ html{
         margin-left:10px;
         margin-right:10px;
         font-size: 0.90em;
-        color: black;
+        color: white;
         text-decoration: none;
     }
 }
@@ -257,7 +312,7 @@ html{
         margin-left:10px;
         margin-right:10px;
         font-size: 0.80em;
-        color: black;
+        color: white;
         text-decoration: none;
     }
     .items-menu:hover{

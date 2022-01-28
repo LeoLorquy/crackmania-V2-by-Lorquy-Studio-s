@@ -1,0 +1,153 @@
+.grid-item-gta {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/GTA-V.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-farcry {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/farcry.png);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-forza {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/forza.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-reddead {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/red\ dead.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-watchdogslegion {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/Watch-Dogs-Legion.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-gtatrilogy {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/gtasa.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-getting {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/Getting.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-minecraft {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/minecraft.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-cyberpunk {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/cyberpunk.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-rust {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/Rust.png);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-mxbikes {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/Mx\ bikes\ .jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.grid-item-fifa22 {
+    width: 320px;
+    height: 200px;
+    background-image: url(../img/jeuxcover/fifa-22.jpg);
+    /*height: auto;*/
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.fond-jeux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgba(0, 0, 0, 0.822);*/
+    background-color: #1a0c35b6;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0;
+}
+.fond-jeux:hover{
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fond-jeux:hover {
+    animation-duration: 0.60s;
+    animation-name: hover;
+  }
+  
+  @keyframes hover {
+    from {
+        opacity:0%;
+    }
+  
+    to {
+        opacity:100%;
+    }
+  }

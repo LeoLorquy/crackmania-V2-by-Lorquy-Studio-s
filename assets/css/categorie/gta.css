@@ -10,10 +10,19 @@
 .blocs{
     width:50%;
     margin-top: 10%;
-    margin-bottom: 13%;
+    margin-bottom: 16%;
     background-color: rgba(10, 10, 10, 0.829);
     padding: 20px;
     border-radius: 10px;
+}
+.center-trailer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
 }
 @media (max-width: 821px) 
 {
@@ -35,3 +44,21 @@
         border-radius: 10px;
     }
 }
+
+
+.title {
+    animation-duration: 0.80s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-top: -20%;
+      width: 100%;
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
