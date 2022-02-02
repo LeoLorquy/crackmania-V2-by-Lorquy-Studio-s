@@ -1,0 +1,11 @@
+<input class="champ" type="text" placeholder="Search..." type="search" id="search" value="" onchange="ouvrirPage()" >
+<script>
+    function ouvrirPage() {
+        var a = document.getElementById("search").value;
+
+        if (a === "contact" || a === "Contact") {
+            window.open("#contact");
+        }
+
+    }
+</script>

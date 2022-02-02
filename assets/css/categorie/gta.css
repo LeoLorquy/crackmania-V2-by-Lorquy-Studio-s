@@ -10,7 +10,7 @@
 .blocs{
     width:50%;
     margin-top: 10%;
-    margin-bottom: 16%;
+    margin-bottom: 18%;
     background-color: rgba(10, 10, 10, 0.829);
     padding: 20px;
     border-radius: 10px;
@@ -24,6 +24,12 @@
     background-position: center;
     background-size: cover;
 }
+.line{
+  height: 100px;
+  width: 1px;
+  background-color: #510a5a;
+}
+
 @media (max-width: 821px) 
 {
     .fond-img{
@@ -45,20 +51,3 @@
     }
 }
 
-
-.title {
-    animation-duration: 0.80s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-top: -20%;
-      width: 100%;
-    }
-  
-    to {
-      margin-top: 0%;
-      width: 100%;
-    }
-  }

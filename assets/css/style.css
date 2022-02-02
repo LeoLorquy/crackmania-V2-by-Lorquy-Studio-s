@@ -124,12 +124,18 @@ html{
     flex-wrap: wrap;
 }
 .button-discord{
+    z-index: -0;
     border: none;
     border-radius: 2px;
     background-color: rgb(68, 68, 68);
     color: white;
-    padding: 10px;
     cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 .button-voir{
     border: none;
@@ -194,6 +200,7 @@ html{
     flex-wrap: wrap;
 }
 .menu{
+    z-index: 1;
     backdrop-filter: blur(25px);
     display: flex;
     align-items: center;
