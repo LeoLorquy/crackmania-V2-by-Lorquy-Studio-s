@@ -249,6 +249,10 @@ html{
 .screen{
     margin-right: 30px;
 }
+.mini{
+    font-size: 0.50em;
+    margin-left: 10px;
+}
 @media (max-width: 577px) 
 {
     .iframes{
